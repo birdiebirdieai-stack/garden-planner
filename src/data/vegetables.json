@@ -1,0 +1,1544 @@
+{
+  "vegetables": [
+    {
+      "id": "garlic",
+      "name": "Ail",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#F5F5F5"
+      }
+    },
+    {
+      "id": "asparagus",
+      "name": "Asperge",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 80,
+        "plantSpacing": 80
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#66BB6A"
+      }
+    },
+    {
+      "id": "eggplant",
+      "name": "Aubergine",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 50,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#4527A0"
+      }
+    },
+    {
+      "id": "chard",
+      "name": "Bette a carde",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 30
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#F06292"
+      }
+    },
+    {
+      "id": "beet",
+      "name": "Betterave",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 25
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#880E4F"
+      }
+    },
+    {
+      "id": "broccoli",
+      "name": "Brocoli",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 60,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#2E7D32"
+      }
+    },
+    {
+      "id": "carrot",
+      "name": "Carotte",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 25,
+        "plantSpacing": 5
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FF6F00"
+      }
+    },
+    {
+      "id": "celery",
+      "name": "Céleri",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 30
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#9CCC65"
+      }
+    },
+    {
+      "id": "chervil",
+      "name": "Cerfeuil",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 20,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#C5E1A5"
+      }
+    },
+    {
+      "id": "chicory",
+      "name": "Chicorée",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 25
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#81C784"
+      }
+    },
+    {
+      "id": "cauliflower",
+      "name": "Chou-fleur",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 60,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#F5F5F5"
+      }
+    },
+    {
+      "id": "cabbage",
+      "name": "Chou",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 50,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#689F38"
+      }
+    },
+    {
+      "id": "brussels-sprout",
+      "name": "Chou de Bruxelles",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 60,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#558B2F"
+      }
+    },
+    {
+      "id": "pumpkin",
+      "name": "Citrouille",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 150,
+        "plantSpacing": 100
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FF9800"
+      }
+    },
+    {
+      "id": "cucumber",
+      "name": "Concombre",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 100,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#388E3C"
+      }
+    },
+    {
+      "id": "gherkin",
+      "name": "Cornichon",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 100,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#689F38"
+      }
+    },
+    {
+      "id": "squash",
+      "name": "Courge",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 120,
+        "plantSpacing": 100
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFCC80"
+      }
+    },
+    {
+      "id": "zucchini",
+      "name": "Courgette",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 100,
+        "plantSpacing": 80
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#558B2F"
+      }
+    },
+    {
+      "id": "shallot",
+      "name": "Echalotte",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 20,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#D7CCC8"
+      }
+    },
+    {
+      "id": "epinard",
+      "name": "Epinard",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 25,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#81C784"
+      }
+    },
+    {
+      "id": "fennel",
+      "name": "Fenouil",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 20
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#81C784"
+      }
+    },
+    {
+      "id": "broad-bean",
+      "name": "Fève",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 15
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#AED581"
+      }
+    },
+    {
+      "id": "strawberry",
+      "name": "Fraise",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 30
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FF1744"
+      }
+    },
+    {
+      "id": "bean",
+      "name": "Haricot",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#4CAF50"
+      }
+    },
+    {
+      "id": "pole-bean",
+      "name": "Haricot rame",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 70,
+        "plantSpacing": 15
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#33691E"
+      }
+    },
+    {
+      "id": "lettuce",
+      "name": "Laitue",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 25
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#7CB342"
+      }
+    },
+    {
+      "id": "lambs-lettuce",
+      "name": "Mâche",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 20,
+        "plantSpacing": 5
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#4CAF50"
+      }
+    },
+    {
+      "id": "corn",
+      "name": "Maïs",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 70,
+        "plantSpacing": 30
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFEB3B"
+      }
+    },
+    {
+      "id": "melon",
+      "name": "Melon",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 100,
+        "plantSpacing": 80
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFD54F"
+      }
+    },
+    {
+      "id": "turnip",
+      "name": "Navet",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 25,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#E1BEE7"
+      }
+    },
+    {
+      "id": "onion",
+      "name": "Oignon (bulbe)",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 25,
+        "plantSpacing": 10
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFA726"
+      }
+    },
+    {
+      "id": "parsnip",
+      "name": "Panais",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 15
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFF9C4"
+      }
+    },
+    {
+      "id": "chili",
+      "name": "Piment",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 50,
+        "plantSpacing": 40
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#D50000"
+      }
+    },
+    {
+      "id": "leek",
+      "name": "Poireau",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 15
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#DCEDC8"
+      }
+    },
+    {
+      "id": "pea",
+      "name": "Pois",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 40,
+        "plantSpacing": 3
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#8BC34A"
+      }
+    },
+    {
+      "id": "pole-pea",
+      "name": "Pois à rame",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 70,
+        "plantSpacing": 3
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#9CCC65"
+      }
+    },
+    {
+      "id": "potato",
+      "name": "Pomme de terre",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 70,
+        "plantSpacing": 35
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#8D6E63"
+      }
+    },
+    {
+      "id": "pumpkin",
+      "name": "Potiron",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 150,
+        "plantSpacing": 100
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FF9800"
+      }
+    },
+    {
+      "id": "radish",
+      "name": "Radis",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 15,
+        "plantSpacing": 5
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#E91E63"
+      }
+    },
+    {
+      "id": "horseradish",
+      "name": "Raifort",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 60,
+        "plantSpacing": 30
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#EFEBE9"
+      }
+    },
+    {
+      "id": "thyme",
+      "name": "Thym",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 30,
+        "plantSpacing": 15
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#558B2F"
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "Tomate",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 70,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#D32F2F"
+      }
+    },
+    {
+      "id": "jerusalem-artichoke",
+      "name": "Topinambour",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 70,
+        "plantSpacing": 50
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFECB3"
+      }
+    },
+    {
+      "id": "sunflower",
+      "name": "Tournesol",
+      "scientificName": "Unknown",
+      "category": "other",
+      "spacing": {
+        "rowSpacing": 60,
+        "plantSpacing": 40
+      },
+      "growthCharacteristics": {
+        "height": 50,
+        "width": 30,
+        "depth": 30,
+        "growthRate": "medium"
+      },
+      "season": {
+        "plantingMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          8
+        ],
+        "daysToMaturity": 60
+      },
+      "nutritionalNeeds": {
+        "nitrogen": "medium",
+        "phosphorus": "medium",
+        "potassium": "medium"
+      },
+      "visualProperties": {
+        "color": "#FFC107"
+      }
+    }
+  ]
+}

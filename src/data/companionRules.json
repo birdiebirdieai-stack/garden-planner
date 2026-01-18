@@ -1,0 +1,4256 @@
+{
+  "rules": [
+    {
+      "id": "beet-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "beet",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "camomille-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "camomille",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "carrot",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-gherkin",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "gherkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-strawberry",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "strawberry",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-lettuce",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-sarriette",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "sarriette",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-tomato",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-pissenlit",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "pissenlit",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-potato",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "asparagus",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "cabbage",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "bean-garlic",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "garlic-pea",
+      "vegetable1Id": "garlic",
+      "vegetable2Id": "pea",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "artichaut-asparagus",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "artichaut",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-persil",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "persil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-leek",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-pea",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-tomato",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-potato",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "asparagus-beet",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "beet",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "asparagus-onion",
+      "vegetable1Id": "asparagus",
+      "vegetable2Id": "onion",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "eggplant-estragon",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "estragon",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-eggplant",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "eggplant-persil",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "persil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "chili-eggplant",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "chili",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "eggplant-pea",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "eggplant-thyme",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "thyme",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "eggplant-tomato",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "eggplant-onion",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "onion",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "eggplant-potato",
+      "vegetable1Id": "eggplant",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "chard-onion",
+      "vegetable1Id": "chard",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-celery",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-cabbage",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "cabbage",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-cauliflower",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "cauliflower",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-chou-rave",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "chou-rave",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-lettuce",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-onion",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-radish",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-carrot",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "carrot",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "beet-pole-bean",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "pole-bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "beet-tomato",
+      "vegetable1Id": "beet",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "aneth-broccoli",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-capucine",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-romarin",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "romarin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-sauge",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "sauge",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-broccoli",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-celery",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-camomille",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "camomille",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-menthe",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-onion",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-origan",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "origan",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-potato",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-strawberry",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "strawberry",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broccoli-lettuce",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "lettuce",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broccoli-radish",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "radish",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broccoli-tomato",
+      "vegetable1Id": "broccoli",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "carrot-chervil",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "chervil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-ciboulette",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "ciboulette",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-shallot",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "shallot",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-spinach",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "spinach",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-carrot",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-carrot",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-lettuce",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-onion",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-parsnip",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "parsnip",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-persil",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "persil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-leek",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-pea",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-radish",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-romarin",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "romarin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-sauge",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "sauge",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-tomato",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "aneth-carrot",
+      "vegetable1Id": "carrot",
+      "vegetable2Id": "aneth",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-celery",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "cabbage",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-cucumber",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-gherkin",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "gherkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-squash",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "squash",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-spinach",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "spinach",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-fennel",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "fennel",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-celery",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-leek",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-pea",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-potato",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-radish",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-tomato",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-celery",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "carrot",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "celery-corn",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "corn",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "celery-persil",
+      "vegetable1Id": "celery",
+      "vegetable2Id": "persil",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "chervil-radish",
+      "vegetable1Id": "chervil",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-chicory",
+      "vegetable1Id": "chicory",
+      "vegetable2Id": "cabbage",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cauliflower-chicory",
+      "vegetable1Id": "chicory",
+      "vegetable2Id": "cauliflower",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "chicory-chou-rave",
+      "vegetable1Id": "chicory",
+      "vegetable2Id": "chou-rave",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "chicory-fennel",
+      "vegetable1Id": "chicory",
+      "vegetable2Id": "fennel",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "aneth-cauliflower",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "camomille-cauliflower",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "camomille",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "capucine-cauliflower",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-celery",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-cucumber",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-gherkin",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "gherkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-cresson",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "cresson",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-cauliflower",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-cauliflower",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-menthe",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-onion",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-parsnip",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "parsnip",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-pea",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-potato",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-radish",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-sauge",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "sauge",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-hysope",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "hysope",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-romarin",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "romarin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-tomato",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-zucchini",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "zucchini",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cauliflower-ptisson",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "ptisson",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cauliflower-strawberry",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "strawberry",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cauliflower-vigne",
+      "vegetable1Id": "cauliflower",
+      "vegetable2Id": "vigne",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broccoli-cabbage",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "broccoli",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-camomille",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "camomille",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-capucine",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-cucumber",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-gherkin",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "gherkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-cresson",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "cresson",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-cabbage",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-cabbage",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-lettuce",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-lambs-lettuce",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "lambs-lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-menthe",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-parsnip",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "parsnip",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-pea",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-potato",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-romarin",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "romarin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-sarriette",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "sarriette",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-sauge",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "sauge",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-thyme",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "thyme",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "aneth-cabbage",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-hysope",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "hysope",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-onion",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-origan",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "origan",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-tomato",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-shallot",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "shallot",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-fennel",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "fennel",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-strawberry",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "strawberry",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-leek",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "leek",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-radish",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "radish",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cabbage-vigne",
+      "vegetable1Id": "cabbage",
+      "vegetable2Id": "vigne",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "aneth-brussels-sprout",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-brussels-sprout",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "beet",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-capucine",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-celery",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-brussels-sprout",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-brussels-sprout",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-lettuce",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-menthe",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-potato",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-romarin",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "romarin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-sauge",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "sauge",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-hysope",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "hysope",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "brussels-sprout-strawberry",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "strawberry",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "brussels-sprout-pea",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "pea",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "brussels-sprout-tomato",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "brussels-sprout-vigne",
+      "vegetable1Id": "brussels-sprout",
+      "vegetable2Id": "vigne",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broad-bean-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "menthe-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "capucine-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pumpkin-radish",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "potato-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "aneth-cucumber",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-cucumber",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-lettuce",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-cucumber",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-onion",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-pea",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-sunflower",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "sunflower",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-cucumber",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broccoli-cucumber",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "broccoli",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-radish",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-melon",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "melon",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cucumber-potato",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cucumber-tomato",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "cucumber-sauge",
+      "vegetable1Id": "cucumber",
+      "vegetable2Id": "sauge",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "aneth-gherkin",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-gherkin",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "gherkin-lettuce",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-gherkin",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "gherkin-onion",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "gherkin-pea",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "gherkin-sunflower",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "sunflower",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "gherkin-melon",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "melon",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "gherkin-potato",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "gherkin-tomato",
+      "vegetable1Id": "gherkin",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "basil-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "basil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "capucine-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "melon-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "melon",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "menthe-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "potato-squash",
+      "vegetable1Id": "squash",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "radish-zucchini",
+      "vegetable1Id": "zucchini",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "menthe-zucchini",
+      "vegetable1Id": "zucchini",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-zucchini",
+      "vegetable1Id": "zucchini",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-zucchini",
+      "vegetable1Id": "zucchini",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "cabbage",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "epinard-strawberry",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "strawberry",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "epinard-leek",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "epinard-radish",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "epinard-lettuce",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "epinard-pea",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "eggplant-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "eggplant",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "epinard-onion",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-epinard",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "beet",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "epinard-potato",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "epinard-tomato",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "epinard-pepper",
+      "vegetable1Id": "epinard",
+      "vegetable2Id": "pepper",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "asparagus-fennel",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "asparagus",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-fennel",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "fennel-gherkin",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "gherkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "fennel-squash",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "squash",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "fennel-pumpkin",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "pumpkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-fennel",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "fennel-pea",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "pea",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "fennel-tomato",
+      "vegetable1Id": "fennel",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broad-bean-garlic",
+      "vegetable1Id": "broad-bean",
+      "vegetable2Id": "garlic",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-celery",
+      "vegetable1Id": "broad-bean",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-radish",
+      "vegetable1Id": "broad-bean",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-broad-bean",
+      "vegetable1Id": "broad-bean",
+      "vegetable2Id": "beet",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broad-bean-potato",
+      "vegetable1Id": "broad-bean",
+      "vegetable2Id": "potato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "bean-strawberry",
+      "vegetable1Id": "strawberry",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-strawberry",
+      "vegetable1Id": "strawberry",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "onion-strawberry",
+      "vegetable1Id": "strawberry",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "leek-strawberry",
+      "vegetable1Id": "strawberry",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "strawberry-thyme",
+      "vegetable1Id": "strawberry",
+      "vegetable2Id": "thyme",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-spinach",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "spinach",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-lettuce",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-lambs-lettuce",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "lambs-lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-potato",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-sarriette",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "sarriette",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-beet",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "beet",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "bean-shallot",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "shallot",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "bean-onion",
+      "vegetable1Id": "bean",
+      "vegetable2Id": "onion",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "eggplant-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "eggplant",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "carrot",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "celery-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "celery",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cabbage-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "cabbage",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cucumber-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "cucumber",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "gherkin-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "gherkin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pole-bean-spinach",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "spinach",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pois-senteur-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "pois-senteur",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pole-bean-potato",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pole-bean-sarriette",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "sarriette",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "garlic",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "pole-bean-shallot",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "shallot",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "fennel-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "fennel",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "onion-pole-bean",
+      "vegetable1Id": "pole-bean",
+      "vegetable2Id": "onion",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "artichaut-lettuce",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "artichaut",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cauliflower-lettuce",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "cauliflower",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-onion",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "leek-lettuce",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-pea",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-radish",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-trfle",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "trfle",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-spinach",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "spinach",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "lettuce-persil",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "persil",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "lettuce-sunflower",
+      "vegetable1Id": "lettuce",
+      "vegetable2Id": "sunflower",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "lambs-lettuce-leek",
+      "vegetable1Id": "lambs-lettuce",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-corn",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-corn",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-pea",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-tomato",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "beet-corn",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "beet",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "corn-lettuce",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "lettuce",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "corn-menthe",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "menthe",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "corn-romarin",
+      "vegetable1Id": "corn",
+      "vegetable2Id": "romarin",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "corn-melon",
+      "vegetable1Id": "melon",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "melon-sunflower",
+      "vegetable1Id": "melon",
+      "vegetable2Id": "sunflower",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-turnip",
+      "vegetable1Id": "turnip",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "menthe-turnip",
+      "vegetable1Id": "turnip",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-turnip",
+      "vegetable1Id": "turnip",
+      "vegetable2Id": "pea",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "romarin-turnip",
+      "vegetable1Id": "turnip",
+      "vegetable2Id": "romarin",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-turnip",
+      "vegetable1Id": "turnip",
+      "vegetable2Id": "garlic",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "camomille-onion",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "camomille",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "fennel-onion",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "fennel",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "leek-onion",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "leek",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "onion-sarriette",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "sarriette",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "onion-tomato",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "onion-potato",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "broad-bean-onion",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "broad-bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "onion-pea",
+      "vegetable1Id": "onion",
+      "vegetable2Id": "pea",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "parsnip-radish",
+      "vegetable1Id": "parsnip",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "aneth-parsnip",
+      "vegetable1Id": "parsnip",
+      "vegetable2Id": "aneth",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "chili-tomato",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "basil-chili",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "basil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "carrot-chili",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "carrot",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "chili-marjolaine",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "marjolaine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "chili-onion",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "onion",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "chili-origan",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "origan",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "chili-fennel",
+      "vegetable1Id": "chili",
+      "vegetable2Id": "fennel",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "beet-leek",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "beet",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "leek-spinach",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "spinach",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "leek-potato",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "leek-tomato",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-leek",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "leek-pea",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "pea",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broad-bean-leek",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "broad-bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broccoli-leek",
+      "vegetable1Id": "leek",
+      "vegetable2Id": "broccoli",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "broad-bean-pea",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "broad-bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-radish",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-spinach",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "spinach",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-tomato",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-pea",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-potato",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "menthe-pea",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "menthe",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "pea-shallot",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "shallot",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "pea-persil",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "persil",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "ciboulette-pea",
+      "vegetable1Id": "pea",
+      "vegetable2Id": "ciboulette",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "corn-pole-pea",
+      "vegetable1Id": "pole-pea",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "onion-pole-pea",
+      "vegetable1Id": "pole-pea",
+      "vegetable2Id": "onion",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "capucine-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "horseradish-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "horseradish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "corn",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "lettuce-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "potato-ptunia",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "ptunia",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "illet-dinde-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "illet-dinde",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "potato-radish",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "radish",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "framboisier-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "framboisier",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "pommier-potato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "pommier",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "potato-tomato",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "tomato",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "potato-sunflower",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "sunflower",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "potato-zucchini",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "zucchini",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "potato-spinach",
+      "vegetable1Id": "potato",
+      "vegetable2Id": "spinach",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "lettuce-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "lettuce",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "melon-pumpkin",
+      "vegetable1Id": "pumpkin",
+      "vegetable2Id": "melon",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "garlic-radish",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "garlic",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "cresson-radish",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "cresson",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-radish",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "bean",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "persil-radish",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "persil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "radish-tomato",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "tomato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "radish-squash",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "squash",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "radish-vigne",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "vigne",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "hysope-radish",
+      "vegetable1Id": "radish",
+      "vegetable2Id": "hysope",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "aneth-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "aneth",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "basil-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "basil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "ciboulette-chinoise-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "ciboulette-chinoise",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "persil-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "persil",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "sauge-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "sauge",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "souci-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "souci",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "oeillet-dinde-tagte-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "oeillet-dinde-tagte",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "capucine-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "capucine",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "bean-tomato",
+      "vegetable1Id": "tomato",
+      "vegetable2Id": "bean",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    },
+    {
+      "id": "jerusalem-artichoke-potato",
+      "vegetable1Id": "jerusalem-artichoke",
+      "vegetable2Id": "potato",
+      "relationship": "beneficial",
+      "strength": 5,
+      "reason": "Association recommandée selon le guide",
+      "scientificBasis": "Compagnonnage traditionnel",
+      "distance": {
+        "maxDistance": 50
+      }
+    },
+    {
+      "id": "corn-sunflower",
+      "vegetable1Id": "sunflower",
+      "vegetable2Id": "corn",
+      "relationship": "antagonistic",
+      "strength": -5,
+      "reason": "Incompatible selon le guide",
+      "distance": {
+        "minDistance": 80
+      }
+    }
+  ]
+}
