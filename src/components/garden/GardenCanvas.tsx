@@ -16,7 +16,6 @@ export const GardenCanvas: React.FC = () => {
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [hoveredSegment, setHoveredSegment] = useState<HoveredSegment | null>(null);
 
-  // Responsive canvas sizing
   useEffect(() => {
     const updateDimensions = () => {
       if (containerRef.current) {
@@ -30,48 +29,63 @@ export const GardenCanvas: React.FC = () => {
     return () => window.removeEventListener('resize', updateDimensions);
   }, []);
 
-  // Calculate scale to fit garden in canvas
   const scale = Math.min(
-    (dimensions.width - 40) / garden.dimensions.width,
-    (dimensions.height - 40) / garden.dimensions.length
+    (dimensions.width - 80) / garden.dimensions.width,
+    (dimensions.height - 80) / garden.dimensions.length
   );
 
   const safeScale = Number.isFinite(scale) && scale > 0 ? scale : 1;
   const offsetX = (dimensions.width - garden.dimensions.width * safeScale) / 2;
   const offsetY = (dimensions.height - garden.dimensions.length * safeScale) / 2;
 
-  // Get vegetable by ID
   const getVegetable = (id: string) =>
     availableVegetables.find(v => v.id === id);
 
   return (
-    <div ref={containerRef} className="w-full h-full relative apple-canvas-bg" data-testid="garden-canvas">
+    <div ref={containerRef} className="w-full h-full relative bg-gradient-to-br from-slate-50 to-slate-100" data-testid="garden-canvas">
       {!layout ? (
         // Empty state
-        <div className="flex items-center justify-center h-full">
-          <div className="text-center p-10 rounded-3xl bg-white shadow-apple-card border border-black/5 max-w-md">
-            <div className="w-20 h-20 bg-apple-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg
-                className="h-10 w-10 text-apple-text-tertiary"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.5}
-                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                />
+        <div className="flex items-center justify-center h-full p-8">
+          <div className="text-center max-w-md animate-fade-in">
+            <div className="w-24 h-24 bg-gradient-to-br from-primary-100 to-primary-200 rounded-full flex items-center justify-center mx-auto mb-8 shadow-lg shadow-primary-500/10">
+              <svg className="h-12 w-12 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-apple-text-primary mb-3">
-              Votre potager
+            <h3 className="text-2xl font-bold text-slate-800 mb-4">
+              Votre Potager
             </h3>
-            <p className="text-apple-text-secondary leading-relaxed">
-              Configurez les dimensions et sélectionnez vos plantes,<br />
-              puis cliquez sur <span className="text-apple-green font-bold">"Optimiser"</span> pour générer le plan.
+            <p className="text-slate-500 leading-relaxed mb-6">
+              Configurez les dimensions de votre jardin, sélectionnez vos plantes favorites,
+              puis cliquez sur <span className="text-primary-600 font-semibold">"Optimiser"</span> pour
+              générer un plan optimisé.
             </p>
+            <div className="flex items-center justify-center gap-6 text-sm text-slate-400">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <span className="text-lg">1</span>
+                </div>
+                <span>Dimensions</span>
+              </div>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <span className="text-lg">2</span>
+                </div>
+                <span>Plantes</span>
+              </div>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center">
+                  <span className="text-lg text-primary-600">3</span>
+                </div>
+                <span className="text-primary-600 font-medium">Optimiser</span>
+              </div>
+            </div>
           </div>
         </div>
       ) : dimensions.width > 0 && dimensions.height > 0 ? (
@@ -81,7 +95,6 @@ export const GardenCanvas: React.FC = () => {
             width={dimensions.width}
             height={dimensions.height}
             onClick={(e) => {
-              // Deselect if clicking on empty space
               const clickedOnEmpty = e.target === e.target.getStage();
               if (clickedOnEmpty) setSelectedPlantId(null);
             }}
@@ -93,24 +106,35 @@ export const GardenCanvas: React.FC = () => {
                 y={offsetY}
                 width={garden.dimensions.width * safeScale}
                 height={garden.dimensions.length * safeScale}
-                fill="#e6ded9" // Lighter soil color
-                stroke="#d7ccc8"
-                strokeWidth={2}
-                cornerRadius={12}
+                fill="#f5f0e8"
+                stroke="#e8dfd2"
+                strokeWidth={3}
+                cornerRadius={16}
                 shadowColor="black"
-                shadowBlur={30}
-                shadowOpacity={0.05}
+                shadowBlur={40}
+                shadowOpacity={0.08}
+                shadowOffsetY={4}
               />
 
-              {/* Grid lines (subtle) */}
-              {Array.from({ length: Math.ceil(garden.dimensions.width / 50) }).map((_, i) => (
+              {/* Subtle grid pattern */}
+              {Array.from({ length: Math.ceil(garden.dimensions.width / 50) + 1 }).map((_, i) => (
                 <Rect
                   key={`grid-v-${i}`}
-                  x={offsetX + i * 50 * scale}
+                  x={offsetX + i * 50 * safeScale}
                   y={offsetY}
                   width={1}
-                  height={garden.dimensions.length * scale}
-                  fill="rgba(0,0,0,0.03)"
+                  height={garden.dimensions.length * safeScale}
+                  fill="rgba(0,0,0,0.04)"
+                />
+              ))}
+              {Array.from({ length: Math.ceil(garden.dimensions.length / 50) + 1 }).map((_, i) => (
+                <Rect
+                  key={`grid-h-${i}`}
+                  x={offsetX}
+                  y={offsetY + i * 50 * safeScale}
+                  width={garden.dimensions.width * safeScale}
+                  height={1}
+                  fill="rgba(0,0,0,0.04)"
                 />
               ))}
 
@@ -125,8 +149,8 @@ export const GardenCanvas: React.FC = () => {
                     const y = offsetY + row.yPosition * safeScale;
                     const width = (segment.xEnd - segment.xStart) * safeScale;
                     const height = row.height * safeScale;
-
                     const isSelected = selectedPlantId === segment.id;
+                    const isHovered = hoveredSegment?.segment.id === segment.id;
 
                     return (
                       <Group
@@ -137,9 +161,7 @@ export const GardenCanvas: React.FC = () => {
                         }}
                         onMouseEnter={(e) => {
                           const stage = e.target.getStage();
-                          if (stage) {
-                            stage.container().style.cursor = 'pointer';
-                          }
+                          if (stage) stage.container().style.cursor = 'pointer';
                           setHoveredSegment({
                             segment,
                             row,
@@ -149,51 +171,52 @@ export const GardenCanvas: React.FC = () => {
                         }}
                         onMouseLeave={(e) => {
                           const stage = e.target.getStage();
-                          if (stage) {
-                            stage.container().style.cursor = 'default';
-                          }
+                          if (stage) stage.container().style.cursor = 'default';
                           setHoveredSegment(null);
                         }}
                       >
                         {/* Segment background */}
                         <Rect
-                          x={x + 2} // Gap
-                          y={y + 2}
-                          width={width - 4}
-                          height={height - 4}
+                          x={x + 3}
+                          y={y + 3}
+                          width={width - 6}
+                          height={height - 6}
                           fill={vegetable.visualProperties.color}
-                          opacity={isSelected ? 1 : 0.9}
-                          cornerRadius={8}
-                          stroke={isSelected ? '#34c759' : 'transparent'}
-                          strokeWidth={isSelected ? 3 : 0}
-                          shadowColor="black"
-                          shadowBlur={isSelected ? 10 : 2}
-                          shadowOpacity={isSelected ? 0.2 : 0.1}
+                          opacity={isSelected || isHovered ? 1 : 0.85}
+                          cornerRadius={12}
+                          stroke={isSelected ? '#22c55e' : isHovered ? 'rgba(255,255,255,0.5)' : 'transparent'}
+                          strokeWidth={isSelected ? 4 : isHovered ? 2 : 0}
+                          shadowColor={vegetable.visualProperties.color}
+                          shadowBlur={isSelected ? 20 : isHovered ? 15 : 8}
+                          shadowOpacity={isSelected ? 0.4 : isHovered ? 0.3 : 0.2}
                         />
 
                         {/* Vegetable name */}
                         <Text
                           x={x}
-                          y={y + height / 2 - 8}
+                          y={y + height / 2 - 10}
                           width={width}
                           text={vegetable.name}
-                          fontSize={Math.max(11, Math.min(14, width / 10))}
-                          fontFamily="-apple-system, BlinkMacSystemFont, sans-serif"
+                          fontSize={Math.max(12, Math.min(15, width / 8))}
+                          fontFamily="Inter, -apple-system, sans-serif"
                           fontStyle="bold"
                           fill="white"
                           align="center"
+                          shadowColor="rgba(0,0,0,0.3)"
+                          shadowBlur={2}
+                          shadowOffsetY={1}
                         />
 
                         {/* Plant count */}
-                        {height > 30 && (
+                        {height > 40 && (
                           <Text
                             x={x}
                             y={y + height / 2 + 8}
                             width={width}
-                            text={`${segment.plantCount}`}
-                            fontSize={Math.max(9, Math.min(11, width / 12))}
-                            fontFamily="-apple-system, BlinkMacSystemFont, sans-serif"
-                            fill="rgba(255,255,255,0.9)"
+                            text={`${segment.plantCount} plants`}
+                            fontSize={Math.max(10, Math.min(12, width / 10))}
+                            fontFamily="Inter, -apple-system, sans-serif"
+                            fill="rgba(255,255,255,0.85)"
                             align="center"
                           />
                         )}
@@ -205,24 +228,41 @@ export const GardenCanvas: React.FC = () => {
             </Layer>
           </Stage>
 
-          {/* Simple Hover Tooltip (Light Theme) */}
+          {/* Hover Tooltip */}
           {hoveredSegment && !selectedPlantId && (
             <div
-              className="absolute bg-white/90 backdrop-blur-md text-apple-text-primary px-4 py-3 rounded-xl text-sm pointer-events-none transform -translate-y-full -translate-x-1/2 mt-[-15px] shadow-apple-hover border border-white/20"
+              className="tooltip animate-fade-in"
               style={{
-                left: hoveredSegment.x,
-                top: hoveredSegment.y,
+                left: hoveredSegment.x + 15,
+                top: hoveredSegment.y - 10,
+                transform: 'translateY(-100%)',
               }}
             >
-              <p className="font-bold flex items-center gap-2">
-                <span
-                  className="w-3 h-3 rounded-full shadow-sm"
+              <div className="flex items-center gap-3">
+                <div
+                  className="w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-md"
                   style={{ backgroundColor: getVegetable(hoveredSegment.segment.vegetableId)?.visualProperties.color }}
-                ></span>
-                {getVegetable(hoveredSegment.segment.vegetableId)?.name}
-              </p>
+                >
+                  {getVegetable(hoveredSegment.segment.vegetableId)?.name.charAt(0)}
+                </div>
+                <div>
+                  <p className="font-semibold text-slate-800">
+                    {getVegetable(hoveredSegment.segment.vegetableId)?.name}
+                  </p>
+                  <p className="text-sm text-slate-500">
+                    {hoveredSegment.segment.plantCount} plants
+                  </p>
+                </div>
+              </div>
             </div>
           )}
+
+          {/* Legend */}
+          <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl px-4 py-3 shadow-lg border border-slate-100">
+            <p className="text-xs text-slate-500 font-medium">
+              Cliquez sur une zone pour voir les détails
+            </p>
+          </div>
         </>
       ) : null}
     </div>
